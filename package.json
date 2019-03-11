@@ -9,6 +9,9 @@
     "start": "webpack-dev-server --open"
   },
   "devDependencies": {
+    "@types/react": "^16.8.7",
+    "@types/react-dom": "^16.8.2",
+    "@types/react-redux": "^7.0.3",
     "babel-cli": "6.26.0",
     "babel-preset-env": "1.6.0",
     "clean-webpack-plugin": "^2.0.0",
@@ -24,6 +27,9 @@
   },
   "dependencies": {
     "@types/redux": "^3.6.0",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4",
+    "react-redux": "^6.0.1",
     "redux": "^4.0.1"
   }
 }
