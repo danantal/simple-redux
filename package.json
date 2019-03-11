@@ -1,0 +1,29 @@
+{
+  "name": "simple-redux",
+  "version": "1.0.0",
+  "description": "Demo Redux",
+  "main": "/src/app.ts",
+  "repository": "https://github.com/danantal/simple-redux.git",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack-dev-server --open"
+  },
+  "devDependencies": {
+    "babel-cli": "6.26.0",
+    "babel-preset-env": "1.6.0",
+    "clean-webpack-plugin": "^2.0.0",
+    "css-loader": "0.28.5",
+    "file-loader": "0.11.2",
+    "html-webpack-plugin": "^3.2.0",
+    "style-loader": "0.18.2",
+    "ts-loader": "^5.3.3",
+    "typescript": "^3.3.3333",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.2.3",
+    "webpack-dev-server": "^3.2.1"
+  },
+  "dependencies": {
+    "@types/redux": "^3.6.0",
+    "redux": "^4.0.1"
+  }
+}
