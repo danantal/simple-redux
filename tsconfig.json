@@ -4,9 +4,11 @@
         "sourceMap": true,
         "noImplicitAny": false,
         "module": "es2015",
+        "moduleResolution": "node",
         "target": "es5",
         "jsx": "react",
         "allowJs": true,
-        "allowSyntheticDefaultImports": true
+        "allowSyntheticDefaultImports": true,
+        "lib": ["es2015", "dom"]
     }
 }

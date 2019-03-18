@@ -14,7 +14,7 @@ class App extends React.Component<{}, {}> {
             <Provider store={store}>
                 <div style={{ margin: "20px" }}>
                     <Input />
-                    <Button title="Add" onClick={() => store.dispatch(add(store.getState().current))} />
+                    <Button title="Add" onClick={() => store.dispatch(add(store.getState().current) as any)} />
                     <Button title="Subtract" onClick={() => store.dispatch(subtract(store.getState().current))} />
                     <Button title="Reset" onClick={() => store.dispatch(reset())} />
                     <Display />

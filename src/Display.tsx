@@ -3,11 +3,12 @@ import { connect } from 'react-redux'
 
 interface DisplayProps {
     value: number;
+    loading: boolean;
 }
 
 export class Display extends Component<DisplayProps, {}> {
     render() {
-        return (
+        return this.props.loading ? <div>Loading...</div> : (
             <div style={{border: "1px solid black"}}>
                 {this.props.value}
             </div>
@@ -16,7 +17,8 @@ export class Display extends Component<DisplayProps, {}> {
 }
 
 const mapStateToProps = (state: any) => ({
-    value: state.total
+    value: state.total,
+    loading: state.loading
 });
 
 export default connect(mapStateToProps, null)(Display)
