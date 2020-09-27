@@ -2,7 +2,7 @@
   "name": "simple-redux",
   "version": "1.0.0",
   "description": "Demo Redux",
-  "main": "/src/app.ts",
+  "private": true,
   "repository": "https://github.com/danantal/simple-redux.git",
   "license": "MIT",
   "scripts": {

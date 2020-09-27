@@ -66,8 +66,6 @@ export const reset = () => ({ type: "RESET" });
 
 export const store = createStore(reducer, composeWithDevTools(applyMiddleware(thunk)));
 
-
-//HELPERS
 function makeComputation(value, currentValue): Promise<number> {
   return new Promise((resolve, reject) => {
     setTimeout(() => resolve(value + currentValue), 2000)
